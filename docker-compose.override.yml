@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  # mariadb:
+  #   volumes:
+  #     - /home/mstr/.database/site1:/var/lib/mysql
+
+  traefik:
+    ports:
+      - '80:80'
+
