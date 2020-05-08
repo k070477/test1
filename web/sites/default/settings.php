@@ -770,3 +770,6 @@ $settings['trusted_host_patterns'] = array (
   '^mysite\.org$',
   '^.+\.mysite\.org$',
 );
+$settings['redis.connection']['interface'] = 'PhpRedis'; // Can be "Predis".
+$settings['redis.connection']['host']      = 'redis';  // Your Redis instance hostname.
+$settings['cache']['default'] = 'cache.backend.redis';
