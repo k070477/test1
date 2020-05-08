@@ -766,3 +766,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_IAHFvyPUwtVvSb3fGu0e3Tc7wjPJSRZN1kMyxVoo1rX8X3aSQVaX5nLIiIxyI-o_V6raqn2mUA/sync';
+$settings['trusted_host_patterns'] = array (
+  '^mysite\.org$',
+  '^.+\.mysite\.org$',
+);
